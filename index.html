@@ -1,0 +1,814 @@
+[index.html](https://github.com/user-attachments/files/22869928/index.html)
+<!DOCTYPE html> 
+<html lang="ko">
+ <head> 
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>트리플에스 케미명</title> 
+<style>
+body {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  margin: 0;
+}
+
+/* PC 버전 (기본) */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* PC에서도 필요시 스크롤 */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #000;
+  height: 45px;
+}
+
+th img, td img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* 모바일 전용 */
+@media screen and (max-width: 768px) {
+  table {
+    width: auto;
+    min-width: 800px; /* 필요시 가로 스크롤 */
+    table-layout: auto;
+  }
+
+  /* 1열과 1행 사진 크기 동일하게 */
+  th:first-child,
+  td:first-child,
+  th {
+    width: 40px; /* 열 폭 */
+    height: 40px; /* 셀 높이도 동일하게 */
+  }
+
+  /* 사진 크기 및 정렬 */
+  th:first-child img,
+  td:first-child img,
+  th img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain; /* 비율 유지 */
+    display: block;
+    margin: auto; /* 가운데 정렬 */
+  }
+
+  th, td {
+    font-size: 9px;
+    padding: 2px;
+  }
+}
+
+/* ✅ 모달 스타일 (변경 없음) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 800px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content img {
+  max-width: 75%;
+  margin: 15px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+</style>
+
+</head>
+<body> 
+<h2 style="text-align:center;">트리플에스 케미명</h2>
+<div class="table-container">
+  <table>
+    <thead>
+        <th> <img src="Logo_of_tripleS.png"></th>
+        <th><img src="상단/1.png" alt="윤서연"  onclick="openMemberWiki('윤서연')" ></th>
+        <th><img src="상단/2.png" alt="정혜린" onclick="openMemberWiki('정혜린')" ></th>
+        <th><img src="상단/3.png" alt="이지우" onclick="openMemberWiki('이지우') "></th>
+        <th><img src="상단/4.png" alt="김채연" onclick="openMemberWiki('김채연')"></th>
+        <th><img src="상단/5.png" alt="김유연" onclick="openMemberWiki('김유연')"></th>
+        <th><img src="상단/6.png" alt="김수민" onclick="openMemberWiki('김수민')"></th>
+        <th><img src="상단/7.png" alt="김나경" onclick="openMemberWiki('김나경')"></th>
+        <th><img src="상단/8.png" alt="공유빈" onclick="openMemberWiki('공유빈')"></th>
+        <th><img src="상단/9.png" alt="카에데" onclick="openMemberWiki('카에데')"></th>
+        <th><img src="상단/10.png" alt="서다현" onclick="openMemberWiki('서다현')"></th>
+        <th><img src="상단/11.png" alt="코토네" onclick="openMemberWiki('코토네')"></th>
+        <th><img src="상단/12.png" alt="곽연지" onclick="openMemberWiki('곽연지')"></th>
+        <th><img src="상단/13.png" alt="니엔" onclick="openMemberWiki('니엔')"></th>
+        <th><img src="상단/14.png" alt="박소현"onclick="openMemberWiki('박소현')"></th>
+        <th><img src="상단/15.png" alt="신위" onclick="openMemberWiki('신위')"></th>
+        <th><img src="상단/16.png" alt="마유" onclick="openMemberWiki('마유')"></th>
+        <th><img src="상단/17.png" alt="린" onclick="openMemberWiki('린')"></th>
+        <th><img src="상단/18.png" alt="주빈" onclick="openMemberWiki('주빈')"></th>
+        <th><img src="상단/19.png" alt="정하연" onclick="openMemberWiki('정하연')"></th>
+        <th><img src="상단/20.png" alt="박시온" onclick="openMemberWiki('박시온')"></th>
+        <th><img src="상단/21.png" alt="김채원" onclick="openMemberWiki('김채원')"></th>
+        <th><img src="상단/22.png" alt="설린"onclick="openMemberWiki('설린')"></th>
+        <th><img src="상단/23.png" alt="서아" onclick="openMemberWiki('서아')"></th>
+        <th><img src="상단/24.png" alt="지연" onclick="openMemberWiki('지연')"></th>
+    </thead>
+    <tbody>
+      <!-- 윤서연과 다른 멤버들 간의 케미명 표시 -->
+      <tr>
+        <th><img src="하단/1.png" alt="윤서연" onclick="openPersonDescription('윤서연')"></th>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S1.png" alt=" S1.png"></td> 
+        <td onclick="openChemistryName('윤서연', '윤서연과 정혜린의 케미명')">꼬꼬마즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 이지우의 케미명')">계란즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 김채연의 케미명')">뭉망즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 김유연의 케미명')">뽀토즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('윤서연','윤서연과 김나경의 케미명')">뽀냥즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 공유빈의 케미명')">뽀밤즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 카에데의 케미명')">물떡즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 서다현의 케미명')">열일즈<br>햄햄다즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 코토네의 케미명')">빼빼로즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('윤서연','윤서연과 니엔의 케미명')">햄멍즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 박소현의 케미명')">최애즈<br>서소즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 신위의 케미명')">ㅇㅅㅇ즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td onclick="openChemistryName('윤서연','윤서연과 박시온의 케미명')">빵냠즈</td>
+        <td onclick="openChemistryName('윤서연','윤서연과 김채원의 케미명')">자몽샤베트</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('윤서연','윤서연과 지연의 케미명')">서연즈</td>
+        </tr>
+      <!-- 정혜린과 다른 멤버들 간의 케미명 표시 -->
+      <tr>
+        <th><img src="하단/2.png" alt="정혜린" onclick="openPersonDescription('정혜린')"></th>
+        <td onclick="openChemistryName('정혜린', '정혜린과 윤서연의 케미명')">꼬꼬마즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S2.png" alt=" S2.png"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 김유연의 케미명')">스고이즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 공유빈의 케미명')">왕눈즈<br>(네콩즈)</td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 카에데의 케미명')">단내즈</td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 서다현의 케미명')">이모즈</td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 코토네의 케미명')">네네즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 박소현의 케미명')">소리꾼즈</td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 신위의 케미명')">청담동<br>사모님즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정혜린', '정혜린과 정하연의 케미명')">정자매즈</td>  
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+      </tr>
+      <!-- 이지우과 다른 멤버들 간의 케미명 표시 -->
+     <tr>
+        <th><img src="하단/3.png" alt="이지우" onclick="openPersonDescription('이지우')"></th>
+        <td onclick="openChemistryName('이지우', '이지우와 윤서연의 케미명')">계란즈</td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"><img src="상징로고/S3.png" alt=" S3.png"></td> 
+        <td onclick="openChemistryName('이지우','이지우와 김채연의 케미명')">민트방즈</td>
+        <td onclick="openChemistryName('이지우','이지우와 김유연의 케미명')">방설즈</td>
+        <td onclick="openChemistryName('이지우','이지우와 김수민의 케미명')">데니즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('이지우','이지우와 공유빈의 케미명')">찐친즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('이지우','이지우와 마유의 케미명')">우유즈</td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('이지우','이지우와 지연의 케미명')">지크릿쥬쥬즈</td>
+      </tr>
+     <!-- 김채연과 다른 멤버들 간의 케미명 표시 -->
+     <tr>
+        <th><img src="하단/4.png" alt="김채연" onclick="openPersonDescription('김채연')"></th>
+        <td onclick="openChemistryName('김채연', '김채연과 윤서연의 케미명')">뭉망즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 이지우의 케미명')">민트즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S4.png" alt=" S4.png"></td> 
+        <td onclick="openChemistryName('김채연','김채연과 김유연의 케미명')">피치즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 김나경의 케미명')">마멜즈</td>
+        <td onclick="openChemistryName('김채연','김채연과 공유빈의 케미명')">MC즈</td>
+        <td onclick="openChemistryName('김채연','김채연과 카에데의 케미명')">프로즌</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 코토네의 케미명')">코니하니</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 니엔의 케미명')">연엔즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 마유의 케미명')">연유즈</td>
+        <td class="empty-cell"></td> 
+        <td onclick="openChemistryName('김채연', '김채연과 주빈의 케미명')">비스니즈</td> 
+        <td onclick="openChemistryName('김채연','김채연과 정하연의 케미명')">촉촉즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채연','김채연과 김채원의 케미명')">말차즈</td>
+        <td onclick="openChemistryName('김채연','김채연과 설린의 케미명')">연락즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <!-- 김유연과 다른 멤버들 간의 케미명 표시 -->	
+     <tr>
+        <th><img src="하단/5.png" alt="김유연" onclick="openPersonDescription('김유연')"></th>
+        <td onclick="openChemistryName('김유연', '김유연과 윤서연의 케미명')">뽀토즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 정혜린의 케미명')">스고이즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 이지우의 케미명')">방설즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 김채연의 케미명')">피치즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S5.png" alt="S5.png"></td>	
+        <td onclick="openChemistryName('김유연', '김유연과 김수민의 케미명')">딸기즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 김나경의 케미명')">투텐즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 공유빈의 케미명')">두유즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 카에데의 케미명')">나안아즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김유연', '김유연과 코토네의 케미명')">미룬즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김유연', '김유연과 박소현의 케미명')">냉온즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 신위의 케미명')">쌍둥이즈</td>
+        <td onclick="openChemistryName('김유연', '김유연과 마유의 케미명')">토끼즈<br>(마유연)</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김유연', '김유연과 서아의 케미명')">맏막즈</td> 
+        <td class="empty-cell"></td>
+     </tr>
+     <!-- 김수민과 다른 멤버들 간의 케미명 표시 -->
+      <tr>
+        <th><img src="하단/6.png" alt="김수민" onclick="openPersonDescription('김수민')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김수민', '김수민과 이지우의 케미명')">데니즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김수민', '김수민과 김유연의 케미명')">딸기즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S6.png" alt=" S6.png"></td> 	
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김수민', '김수민과 공유빈의 케미명')">말랑즈</td>
+        <td onclick="openChemistryName('김수민', '김수민과 카에데의 케미명')">감자탕즈</td>
+        <td onclick="openChemistryName('김수민', '김수민과 서다현의 케미명')">수다즈</td>
+        <td class="empty-cell"></td>
+        <td class="cross-cell" onclick="openChemistryName('김수민', '김수민과 곽연지의 케미명')">레전드</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+         <td class="cross-cell" onclick="openChemistryName('김수민', '김수민과 주빈의 케미명')">잭과콩나뭉즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+         <td class="cross-cell" onclick="openChemistryName('김수민', '김수민과 김채원의 케미명')">왹숨즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+      <!-- 김나경과 다른 멤버들 간의 케미명 표시 -->
+       <tr>
+        <th><img src="하단/7.png" alt="김나경" onclick="openPersonDescription('김나경')"></th>
+        <td onclick="openChemistryName('김나경', '김나경과 윤서연의 케미명')">뽀냥즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>       
+        <td onclick="openChemistryName('김나경', '김나경과 김채연의 케미명')">마멜즈</td>
+        <td onclick="openChemistryName('김나경', '김나경과 김유연의 케미명')">투텐즈</td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S7.png" alt=" S7.png"></td> 
+        <td onclick="openChemistryName('김나경', '김나경과 공유빈의 케미명')">냥냥즈<br>(격리즈)</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김나경', '김나경과 서다현의 케미명')">나다즈</td>
+        <td onclick="openChemistryName('김나경', '김나경과 코토네의 케미명')">낫토즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김나경', '김나경과 니엔의 케미명')">밤냥갱즈</td>
+        <td onclick="openChemistryName('김나경', '김나경과 박소현의 케미명')">깜빡즈</td>
+        <td onclick="openChemistryName('김나경', '김나경과 신위의 케미명')">키위즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김나경', '김나경과 린의 케미명')">칠칠즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김나경', '김나경과 정하연의 케미명')">필연즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <!-- 공유빈과 다른 멤버들 간의 케미명 표시 -->
+     <tr>
+        <th><img src="하단/8.png" alt="공유빈" onclick="openPersonDescription('공유빈')"></th>
+        <td onclick="openChemistryName('공유빈', '공유빈과 윤서연의 케미명')">뽀밤즈</td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 정혜린의 케미명')">왕눈즈<br>(네콩즈)</td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 이지우의 케미명')">찐친즈</td>       
+        <td onclick="openChemistryName('공유빈', '공유빈과 김채연의 케미명')">MC즈</td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 김유연의 케미명')">두유즈</td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 김수민의 케미명')">말랑즈</td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 김나경의 케미명')">냥냥즈<br>(격리즈)</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S8.png" alt=" S8.png"></td> 	
+        <td onclick="openChemistryName('공유빈', '공유빈과 카에데의 케미명')">단밤즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 정하연의 케미명')">공연즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 설린의 케미명')">설밤즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('공유빈', '공유빈과 지연의 케미명')">원플원즈</td>
+     </tr>
+     <!-- 카에데과 다른 멤버들 간의 케미명 표시 -->
+     <tr>
+        <th><img src="하단/9.png" alt="카에데" onclick="openPersonDescription('카에데')"></th>
+        <td onclick="openChemistryName('카에데', '카에데와 윤서연의 케미명')">물떡즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 정혜린의 케미명')">단내즈</td>
+        <td class="empty-cell"></td>     
+        <td onclick="openChemistryName('카에데', '카에데와 김채연의 케미명')">프로즌</td>
+        <td onclick="openChemistryName('카에데', '카에데와 김유연의 케미명')">나안아즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 김수민의 케미명')">감자탕즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('카에데', '카에데와 공유빈의 케미명')">단밤즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S9.png" alt=" S9.png"></td> 
+        <td onclick="openChemistryName('카에데', '카에데와 서다현의 케미명')">블루방즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 코토네의 케미명')">ㅋㅋ즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 곽연지의 케미명')">동글즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 니엔의 케미명')">니카와이즈</td>
+        <td onclick="openChemistryName('카에데', '카에데와 박소현의 케미명')">소풍즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('카에데', '카에데와 마유의 케미명')">마카롱즈</td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('카에데', '카에데와 박시온의 케미명')">냐냐즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+      <tr>
+        <th><img src="하단/10.png" alt="서다현" onclick="openPersonDescription('서다현')"></th>
+        <td onclick="openChemistryName('서다현','서다현과 윤서연의 케미명')">열일즈<br>햄햄다즈</td>
+        <td onclick="openChemistryName('서다현', '서다현과 정혜린의 케미명')">이모즈</td>
+        <td class="empty-cell"></td>       
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서다현', '서다현과 김수민의 케미명')">수다즈</td>
+        <td onclick="openChemistryName('서다현', '서다현과 김나경의 케미명')">나다즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서다현', '서다현과 카에데의 케미명')">블루방즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S10.png" alt=" S10.png"></td> 
+        <td onclick="openChemistryName('서다현', '서다현과 코토네의 케미명')">탄산즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서다현', '서다현과 박소현의 케미명')">소다현즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td> 
+        <td onclick="openChemistryName('서다현', '서다현과 정하연의 케미명')">지능즈</td>
+        <td onclick="openChemistryName('서다현', '서다현과 박시온의 케미명')">보컬즈</td>
+        <td onclick="openChemistryName('서다현', '서다현과 김채원의 케미명')">딸기소다즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/11.png" alt="코토네" onclick="openPersonDescription('코토네')"></th>
+        <td onclick="openChemistryName('코토네', '코토네와 윤서연의 케미명')">빼빼로즈</td>
+        <td onclick="openChemistryName('코토네', '코토네와 정혜린의 케미명')">네네즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('코토네', '코토네와 김채연의 케미명')">코니하니</td>
+        <td onclick="openChemistryName('코토네', '코토네와 김유연의 케미명')">미룬즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('코토네', '코토네와 김나경의 케미명')">낫토즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('코토네', '코토네와 카에데의 케미명')">ㅋㅋ즈</td>
+        <td onclick="openChemistryName('코토네', '코토네와 서다현의 케미명')">탄산즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S11.png" alt=" S11.png"></td> 
+        <td onclick="openChemistryName('코토네', '코토네와 곽연지의 케미명')">도쿄즈</td>
+        <td onclick="openChemistryName('코토네', '코토네와 니엔의 케미명')">코니치와즈</td>
+        <td onclick="openChemistryName('코토네', '코토네와 박소현의 케미명')">저음즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('코토네', '코토네와 마유의 케미명')">토마토즈</td>
+        <td class="empty-cell"></td> 
+        <td onclick="openChemistryName('코토네', '코토네와 주빈의 케미명')">만두즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('코토네', '코토네와 지연의 케미명')">눕눕즈</td>
+  <tr>
+        <th><img src="하단/12.png" alt="곽연지" onclick="openPersonDescription('곽연지')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('곽연지', '곽연지와 김수민의 케미명')">레전드</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('곽연지', '곽연지와 카에데의 케미명')">동글즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('곽연지', '곽연지와 코토네의 케미명')">도쿄즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S12.png" alt=" S12.png"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+       <td onclick="openChemistryName('곽연지', '곽연지와 김채원의 케미명')">슈가즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('곽연지', '곽연지와 지연의 케미명')">이브즈</td>
+     </tr>
+
+        <th><img src="하단/13.png" alt="니엔" onclick="openPersonDescription('니엔')"></th>
+        <td onclick="openChemistryName('니엔', '니엔과 윤서연의 케미명')">햄멍즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('니엔', '니엔과 김채연의 케미명')">연엔즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('니엔', '니엔과 김나경의 케미명')">밤냥갱즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('니엔', '니엔과 카에데의 케미명')">니카와이즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('니엔', '니엔과 코토네의 케미명')">코니치와즈</td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S13.png" alt=" S13.png"></td> 
+        <td onclick="openChemistryName('니엔', '니엔과 박소현의 케미명')">박쉬즈</td>
+        <td onclick="openChemistryName('니엔', '니엔과 신위의 케미명')">시니엔즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('니엔', '니엔과 정하연의 케미명')">하니즈</td>
+        <td onclick="openChemistryName('니엔', '니엔과 박시온의 케미명')">어니온빵즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+      <tr>
+        <th><img src="하단/14.png" alt="박소현" onclick="openPersonDescription('박소현')"></th>
+        <td onclick="openChemistryName('박소현', '박소현과 윤서연의 케미명')">최애즈<br>(서소즈)</td>
+        <td onclick="openChemistryName('박소현', '박소현과 정혜린의 케미명')">소리꾼즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 김유연의 케미명')">냉온즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 김나경의 케미명')">깜빡즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 카에데의 케미명')">소풍즈</td>
+        <td onclick="openChemistryName('박소현', '박소현과 서다현의 케미명')">소다현즈</td>
+        <td onclick="openChemistryName('박소현', '박소현과 코토네의 케미명')">저음즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 니엔의 케미명')">박쉬즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S14.png" alt=" S14.png"></td> 
+        <td onclick="openChemistryName('박소현', '박소현과 신위의 케미명')">소신즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 린의 케미명')">포뇨즈</td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 박시온의 케미명')">제비즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박소현', '박소현과 서아의 케미명')">햇님달님즈</td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/15.png" alt="신위" onclick="openPersonDescription('신위')"></th>
+        <td onclick="openChemistryName('신위', '신위와 윤서연의 케미명')">ㅇㅅㅇ즈</td>
+        <td onclick="openChemistryName('신위', '신위와 정혜린의 케미명')">청담동<br>사모님즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>	
+        <td onclick="openChemistryName('신위', '신위와 김유연의 케미명')">쌍둥이즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('신위', '신위와 김나경의 케미명')">키위즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('신위', '신위와 니엔의 케미명')">시니엔즈</td>
+        <td onclick="openChemistryName('신위', '신위와 박소현의 케미명')">소신즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S15.png" alt=" S15.png"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('신위', '신위와 김채원의 케미명')">비밀즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/16.png" alt="마유" onclick="openPersonDescription('마유')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('마유', '마유와 이지우의 케미명')">우유즈</td>
+        <td onclick="openChemistryName('마유', '마유와 김채연의 케미명')">연유즈</td>
+        <td onclick="openChemistryName('마유', '마유와 김유연의 케미명')">토끼즈<br>(마유연)</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('마유', '마유와 카에데의 케미명')">마카롱즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('마유', '마유와 코토네의 케미명')">토마토즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S16.png" alt=" S16.png"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('마유', '마유와 박시온의 케미명')">마시멜로즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/17.png" alt="린" onclick="openPersonDescription('린')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('린', '린과 김나경의 케미명')">칠칠즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('린', '린과 박소현의 케미명')">포뇨즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S17.png" alt=" S17.png"></td>
+        <td onclick="openChemistryName('린', '린과 주빈의 케미명')">외자즈</td>
+        <td onclick="openChemistryName('린', '린과 정하연의 케미명')">연인즈</td>
+        <td onclick="openChemistryName('린', '린과 박시온의 케미명')">06즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('린', '린과 서아의 케미명')">서아린즈</td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/18.png" alt="주빈" onclick="openPersonDescription('주빈')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('주빈', '주빈과 김채연의 케미명')">비스니즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('주빈', '주빈과 김수민의 케미명')">잭과콩나뭉즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('주빈', '주빈과 코토네의 케미명')">만두즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('주빈', '주빈과 린의 케미명')">외자즈</td>
+        <td style="background-color: #f0f0f0;"><img src="상징로고/S18.png" alt=" S18.png"></td>	
+        <td onclick="openChemistryName('주빈', '주빈과 정하연의 케미명')">톰과제리즈</td>
+        <td onclick="openChemistryName('주빈', '주빈과 박시온의 케미명')">밥주시온즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('주빈', '주빈과 설린의 케미명')">설빙즈</td>
+        <td onclick="openChemistryName('주빈', '주빈과 서아의 케미명')">햇콩즈</td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/19.png" alt="정하연" onclick="openPersonDescription('정하연')"></th>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 정혜린의 케미명')">정자매즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 김채연의 케미명')">촉촉즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 김나경의 케미명')">필연즈</td>
+        <td onclick="openChemistryName('정하연', '정하연과 공유빈의 케미명')">공연즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 서다현의 케미명')">지능즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 니엔의 케미명')">하니즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 린의 케미명')">연인즈</td>
+        <td onclick="openChemistryName('정하연', '정하연과 주빈의 케미명')">톰과제리즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S19.png" alt=" S19.png"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('정하연', '정하연과 김채원의 케미명')">모찌즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/20.png" alt="박시온" onclick="openPersonDescription('박시온')"></th>
+        <td onclick="openChemistryName('박시온', '박시온과 윤서연의 케미명')">빵냠즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>	
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박시온', '박시온과 카에데의 케미명')">냐냐즈</td>
+        <td onclick="openChemistryName('박시온', '박시온과 서다현의 케미명')">보컬즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박시온', '박시온과 니엔의 케미명')">어니온빵즈</td>
+        <td onclick="openChemistryName('박시온', '박시온과 박소현의 케미명')">제비즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('박시온', '박시온과 마유의 케미명')">마시멜로즈</td>
+        <td onclick="openChemistryName('박시온', '박시온과 린의 케미명')">06즈</td>
+        <td onclick="openChemistryName('박시온', '박시온과 주빈의 케미명')">밥주시온즈</td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S20.png" alt=" S20.png"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/21.png" alt="김채원" onclick="openPersonDescription('김채원')"></th>
+        <td onclick="openChemistryName('김채원', '김채원과 윤서연의 케미명')">자몽샤베트</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 김채연의 케미명')">말차즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 김수민의 케미명')">왹숨즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 서다현의 케미명')">딸기소다즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 곽연지의 케미명')">슈가즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 신위의 케미명')">비밀즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('김채원', '김채원과 정하연의 케미명')">모찌즈</td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S21.png" alt=" S21.png"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/22.png" alt="설린" onclick="openPersonDescription('설린')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('설린', '설린과 김채연의 케미명')">연락즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('설린', '설린과 공유빈의 케미명')">설밤즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td onclick="openChemistryName('설린', '설린과 주빈의 케미명')">설빙즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S22.png" alt=" S22.png"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+     </tr>
+     <tr>
+        <th><img src="하단/23.png" alt="서아" onclick="openPersonDescription('서아')"></th>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서아', '서아와 김유연의 케미명')">맏막즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서아', '서아와 박소현의 케미명')">햇님달님즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('서아', '서아와 린의 케미명')">서아린즈</td> 
+        <td onclick="openChemistryName('서아', '서아와 주빈의 케미명')">햇콩즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S23.png" alt=" S23.png"></td>	
+        <td onclick="openChemistryName('서아', '서아와 지연의 케미명')">클레어도준즈</td>
+     </tr>
+     <tr>
+        <th><img src="하단/24.png" alt="지연" onclick="openPersonDescription('지연')"></th>
+        <td onclick="openChemistryName('지연', '지연과 윤서연의 케미명')">서연즈</td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('지연', '지연과 이지우의 케미명')">지크릿쥬쥬즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('지연', '지연과 공유빈의 케미명')">원플원즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('지연', '지연과 코토네의 케미명')">눕눕즈</td>
+        <td onclick="openChemistryName('지연', '지연과 곽연지의 케미명')">이브즈</td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td> 
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td class="empty-cell"></td>
+        <td onclick="openChemistryName('지연', '지연과 서아의 케미명')">클레어도준즈</td>
+        <td style="background-color: #f0f0f0;"> <img src="상징로고/S24.png" alt=" S24.png"></td>
+     </tr>
+    </tbody>
+  </table>
+   <div id="chemistryModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="chemistryTitle"></h2>
+      <img id="chemistryImage" src="" alt="케미 이미지">
+      <p id="chemistryDescription"></p>
+      <div id="chemistryLinks"></div>
+    </div>
+  </div>
+<script src="script.js"></script>
+
+</body>
+</html>
