@@ -329,7 +329,7 @@ const chemistryDescriptions = {
       image: "케미 리스트/S6 김수민/수다즈.png"
     },
     "김수민과 카에데의 케미명":{
-   description:"성수하우스 시절 둘이 라이브를 하다가 어떤 케미명을 하고 싶냐는 WAV들의 질문에 수민이가 라이브 전에 감자탕 먹고 왔으니까 감자탕즈로 하겠다며 감자탕즈가 되었다.<br>(221129 시그널 라이브 참고)<br> Photo by. MapleSyrup_1220 ",
+   description:"성수하우스 시절 둘이 라이브를 하다가 어떤 케미명을 하고 싶냐는 WAV들의 질문에 수민이가 라이브 전에 감자탕 먹고 왔으니까 감자탕즈로 하겠다며 감자탕즈가 되었다.<br>(221129 시그널 라이브 참고)",
    image:"케미 리스트/S6 김수민/감자탕즈.png"
    },
     "김수민과 곽연지의 케미명": {
@@ -461,7 +461,7 @@ const chemistryDescriptions = {
       image: "케미 리스트/S5 김유연/나안아즈.png"
   },
   "카에데와 김수민의 케미명":{
-   description:"성수하우스 시절 둘이 라이브를 하다가 어떤 케미명을 하고 싶냐는 WAV들의 질문에 수민이가 라이브 전에 감자탕 먹고 왔으니까 감자탕즈로 하겠다며 감자탕즈가 되었다.<br>(221129 시그널 라이브 참고)<br> Photo by. MapleSyrup_1220 ",
+   description:"성수하우스 시절 둘이 라이브를 하다가 어떤 케미명을 하고 싶냐는 WAV들의 질문에 수민이가 라이브 전에 감자탕 먹고 왔으니까 감자탕즈로 하겠다며 감자탕즈가 되었다.<br>(221129 시그널 라이브 참고) ",
    image:"케미 리스트/S6 김수민/감자탕즈.png"
    },
   "카에데와 공유빈의 케미명":{
@@ -1099,4 +1099,5 @@ document.querySelectorAll(".chemistry-item").forEach(item => {
     const chemistryName = item.dataset.chemistry;
     openChemistryName(person, chemistryName);
   });
+
 });
