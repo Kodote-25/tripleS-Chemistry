@@ -57,24 +57,50 @@ td {
   text-decoration: underline;
 }
 
-/* 케미 칸 */
+/* 케미 정보가 있는 칸 */
 .chemistry-cell {
   cursor: pointer;
   white-space: pre-line;
   background-color: #ffffff;
+  color: #111111;
 }
 
 .chemistry-cell:hover {
   background-color: #f3f3f3;
 }
 
-.diagonal-cell {
-  background-color: #f0f0f0;
-}
-
+/* 빈 케미 칸: 라이트 모드에서도 완전한 검은색 */
 #chemistryTable td.empty-cell {
   background-color: #000000 !important;
   color: #000000 !important;
+}
+
+/* 대각선 칸 */
+.diagonal-cell {
+  background-color: #f0f0f0;
+  vertical-align: middle;
+}
+
+/* 왼쪽 상단 로고 칸 */
+.logo-cell {
+  vertical-align: middle;
+}
+
+/* 표 안의 로고 이미지 */
+.table-logo {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin: auto;
+}
+
+.diagonal-logo {
+  display: block;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  margin: auto;
 }
 
 /* 상세 팝업 */
@@ -143,34 +169,33 @@ body.dark-mode #chemistryTable td {
   border-color: #444444;
 }
 
-/* 멤버 이름 칸 */
+/* 다크모드 멤버 이름 */
 body.dark-mode #chemistryTable .member-name-link {
   color: #f3f3f3;
 }
 
-/* 다크모드에서 빈칸은 어두운색 */
-body.dark-mode #chemistryTable td.empty-cell {
-  background-color: #181818 !important;
-  color: #f3f3f3;
-}
-
-/* 케미 이름이 있는 칸 */
-/* 다크모드에서도 빈칸은 완전한 검은색 */
+/* 다크모드 빈 케미 칸: 완전한 검은색 */
 body.dark-mode #chemistryTable td.empty-cell {
   background-color: #000000 !important;
   color: #000000 !important;
+}
+
+/* 다크모드 케미 정보 칸 */
+body.dark-mode #chemistryTable td.chemistry-cell {
+  background-color: #202020;
+  color: #f3f3f3;
 }
 
 body.dark-mode #chemistryTable td.chemistry-cell:hover {
   background-color: #383838;
 }
 
-/* 대각선 칸 */
+/* 다크모드 대각선 칸 */
 body.dark-mode #chemistryTable td.diagonal-cell {
   background-color: #292929;
 }
 
-/* 팝업 */
+/* 다크모드 팝업 */
 body.dark-mode .modal-content {
   background-color: #242424;
   color: #f3f3f3;
@@ -208,5 +233,15 @@ body.dark-mode .modal-content a {
   .member-name-link {
     min-height: 40px;
     font-size: 9px;
+  }
+
+  .table-logo {
+    width: 28px;
+    height: 28px;
+  }
+
+  .diagonal-logo {
+    width: 24px;
+    height: 24px;
   }
 }
