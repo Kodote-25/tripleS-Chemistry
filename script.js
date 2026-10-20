@@ -201,3 +201,31 @@ document.addEventListener("keydown", event => {
 });
 
 renderTable();
+
+// 여기부터 다크모드 코드 추가
+(() => {
+  const toggle = document.getElementById("theme-toggle");
+  if (!toggle) return;
+
+  let savedTheme = "light";
+
+  try {
+    savedTheme = localStorage.getItem("theme") || "light";
+  } catch (error) {}
+
+  function updateTheme(isDark) {
+    document.body.classList.toggle("dark-mode", isDark);
+    toggle.textContent = isDark ? "☀️ 라이트모드" : "🌙 다크모드";
+    toggle.setAttribute("aria-pressed", String(isDark));
+
+    try {
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    } catch (error) {}
+  }
+
+  updateTheme(savedTheme === "dark");
+
+  toggle.addEventListener("click", () => {
+    updateTheme(!document.body.classList.contains("dark-mode"));
+  });
+})();
