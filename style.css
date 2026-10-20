@@ -101,23 +101,56 @@ th img, td img {
 
 
 
-/* 다크모드 전환 테스트 */
+
+/* ===== 다크모드 ===== */
 body.dark-mode {
-  background-color: #151821 !important;
-  color: #f3f4f6 !important;
-}
-
-body.dark-mode .page-title {
-  color: #f3f4f6 !important;
-}
-
-body.dark-mode #chemistryTable th,
-body.dark-mode #chemistryTable td {
+  background-color: #151821;
   color: #f3f4f6;
 }
 
-body.dark-mode .modal-content {
-  background-color: #242938 !important;
-  color: #f3f4f6 !important;
+body.dark-mode .page-title {
+  color: #f3f4f6;
 }
 
+/* 표의 선과 기본 글씨 */
+body.dark-mode #chemistryTable th,
+body.dark-mode #chemistryTable td {
+  border-color: #444;
+  color: #f3f4f6;
+}
+
+/* 빈칸과 빈 케미 영역을 어둡게 */
+body.dark-mode #chemistryTable .empty-cell,
+body.dark-mode #chemistryTable td:empty {
+  background-color: #181818 !important;
+}
+
+/* 대각선 칸도 어둡게 */
+body.dark-mode #chemistryTable .diagonal-cell {
+  background-color: #242424 !important;
+}
+
+/* 케미 칸에 마우스를 올렸을 때 */
+body.dark-mode #chemistryTable .chemistry-cell:hover {
+  background-color: #343434 !important;
+}
+
+/* 상단·하단 글씨에 링크를 걸 경우 */
+#chemistryTable a.member-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+#chemistryTable a.member-link:hover {
+  text-decoration: underline;
+}
+
+/* 다크모드 팝업 */
+body.dark-mode .modal-content {
+  background-color: #242938;
+  color: #f3f4f6;
+}
+
+body.dark-mode .modal-content a {
+  color: #9ec5ff;
+}
