@@ -154,3 +154,24 @@ body.dark-mode .modal-content {
 body.dark-mode .modal-content a {
   color: #9ec5ff;
 }
+/* 다크모드: 케미가 없는 모든 칸을 검은색으로 */
+body.dark-mode #chemistryTable td.empty-cell {
+  background: #181818 !important;
+  color: #f3f4f6 !important;
+}
+
+/* 다크모드: 대각선 칸도 어둡게 */
+body.dark-mode #chemistryTable td.diagonal-cell {
+  background: #242424 !important;
+}
+
+/* 다크모드: 표의 테두리 */
+body.dark-mode #chemistryTable th,
+body.dark-mode #chemistryTable td {
+  border-color: #444 !important;
+}
+
+/* 상단·왼쪽 멤버 사진을 클릭할 수 있다는 표시 */
+#chemistryTable .member-image {
+  cursor: pointer;
+}
