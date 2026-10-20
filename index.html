@@ -1,13 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f6fa">
   <title>트리플에스 케미명</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2 class="page-title">트리플에스 케미명</h2>
+  <header class="page-header">
+    <h2 class="page-title">트리플에스 케미명</h2>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="다크모드 전환"
+      aria-pressed="false"
+    >
+      🌙 다크모드
+    </button>
+  </header>
+
   <div class="table-container">
     <table id="chemistryTable" aria-label="트리플에스 멤버 케미명 표"></table>
   </div>
@@ -26,3 +40,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
