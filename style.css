@@ -72,8 +72,9 @@ td {
   background-color: #f0f0f0;
 }
 
-.empty-cell {
-  background-color: #ffffff;
+#chemistryTable td.empty-cell {
+  background-color: #000000 !important;
+  color: #000000 !important;
 }
 
 /* 상세 팝업 */
