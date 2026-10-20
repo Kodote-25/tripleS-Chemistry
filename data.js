@@ -177,7 +177,7 @@ const chemistries = [
     ],
     "name": "꼬꼬마즈",
     "image": "케미 리스트/S1 윤서연/꼬꼬마즈.png",
-    "description": "",
+    "description": "가평하우스에 살던 시절 제일 먼저 공개된 둘이고 다른 S들이 공개되기 전 키가 작은 두 명이라 붙여진 귀여운 케미명이다.",
     "links": []
   },
   {
@@ -202,7 +202,7 @@ const chemistries = [
     ],
     "name": "뭉망즈",
     "image": "케미 리스트/S1 윤서연/뭉망즈.png",
-    "description": "",
+    "description": "둘 다 강아지상 멤버이기 때문에 붙은 케미명. <br> 아기 강아지 울음소리로, 김채연 뭉뭉,<br> 윤서연이 망망하고 울게 생겼다는 의미.<br>photo by. @posh1204",
     "links": []
   },
   {
