@@ -1336,7 +1336,7 @@ const chemistries = [
     "description": "**230425 SIGNAL**에서 니엔이 직접 정하게 된 케미명으로<br> 박소현의 '박'과 니엔의 본명인 쉬니엔츠에서 '쉬'를 따온 케미명이다. ",
     "links": [
       {
-      "label":"230425 SIGNAL"
+      "label":"230425 SIGNAL",
       "url":"https://youtu.be/kYsHpzfkJfI?si=QxYonq74ZowpWTPY"
       }
     ]
