@@ -150,4 +150,23 @@ body,
 .modal-content {
   transition: background-color 0.2s ease, color 0.2s ease;
 }
+/* 다크모드 전환 테스트 */
+body.dark-mode {
+  background-color: #151821 !important;
+  color: #f3f4f6 !important;
+}
+
+body.dark-mode .page-title {
+  color: #f3f4f6 !important;
+}
+
+body.dark-mode #chemistryTable th,
+body.dark-mode #chemistryTable td {
+  color: #f3f4f6;
+}
+
+body.dark-mode .modal-content {
+  background-color: #242938 !important;
+  color: #f3f4f6 !important;
+}
 
