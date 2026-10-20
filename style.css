@@ -155,9 +155,10 @@ body.dark-mode #chemistryTable td.empty-cell {
 }
 
 /* 케미 이름이 있는 칸 */
-body.dark-mode #chemistryTable td.chemistry-cell {
-  background-color: #202020;
-  color: #f3f3f3;
+/* 다크모드에서도 빈칸은 완전한 검은색 */
+body.dark-mode #chemistryTable td.empty-cell {
+  background-color: #000000 !important;
+  color: #000000 !important;
 }
 
 body.dark-mode #chemistryTable td.chemistry-cell:hover {
