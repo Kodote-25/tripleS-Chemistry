@@ -98,3 +98,56 @@ th img, td img {
     margin: auto;
   }
 }
+
+
+/* 다크모드 색상 */
+body.dark-mode {
+  background-color: #171923;
+  color: #f3f4f6;
+}
+
+/* 카드와 콘텐츠 영역 */
+body.dark-mode .card,
+body.dark-mode .member-card,
+body.dark-mode .modal-content,
+body.dark-mode .container {
+  background-color: #242938;
+  color: #f3f4f6;
+}
+
+/* 제목과 일반 글씨 */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode label {
+  color: #f3f4f6;
+}
+
+/* 입력창과 선택 메뉴 */
+body.dark-mode input,
+body.dark-mode select,
+body.dark-mode textarea {
+  background-color: #242938;
+  color: #ffffff;
+  border-color: #555d70;
+}
+
+/* 버튼 */
+body.dark-mode button {
+  color: #ffffff;
+}
+
+/* 링크 */
+body.dark-mode a {
+  color: #9dc5ff;
+}
+
+/* 색상 변경을 부드럽게 */
+body,
+.card,
+.member-card,
+.modal-content {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
