@@ -230,7 +230,7 @@ const chemistries = [
     "description": "뽀토즈가 생기면서 자연스럽게 고양이인 김나경과 케미명으로 뽀냥즈가되었다. <br> **241226 SIGNAL LIVE**에서 직접 언급하며 케미명이되었다.",
     "links": [
       {
-        "label":241226 SIGNAL LIVE",
+        "label":"241226 SIGNAL LIVE",
         "url":"https://youtu.be/Qt6lHRBcg3U?si=T5uidkpRSlfEVLbZ"
       }
     ]
