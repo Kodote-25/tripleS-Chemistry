@@ -202,7 +202,7 @@ const chemistries = [
     ],
     "name": "뭉망즈",
     "image": "케미 리스트/S1 윤서연/뭉망즈.png",
-    "description": "둘 다 강아지상 멤버이기 때문에 붙은 케미명. <br> 아기 강아지 울음소리로, 김채연 뭉뭉,<br> 윤서연이 망망하고 울게 생겼다는 의미.<br>photo by. @posh1204",
+    "description": "둘 다 강아지상 멤버이기 때문에 붙은 케미명. <br> 아기 강아지 울음소리로, 김채연 뭉뭉,<br> 윤서연이 망망하고 울게 생겼다는 의미.",
     "links": []
   },
   {
@@ -212,8 +212,13 @@ const chemistries = [
     ],
     "name": "뽀토즈",
     "image": "케미 리스트/S1 윤서연/뽀토즈.png",
-    "description": "",
-    "links": []
+    "description": "**220901 라이브** 에서 케미명 후보로 '뽀얀즈, 토끼즈'등등이 언급되다가 서연이가 자기도 토끼 하고 싶다고 해서 둘 다 피부가 뽀얗고 토끼니까 두 개를 합쳐 '뽀토즈'를 하자고 하였다.",
+    "links": [
+      {
+        "label":"220901 라이브",
+        "url":"https://youtu.be/cCAHv6vLW9Q?si=i2GoDuyXxxv5AuUV"
+      }
+    ]
   },
   {
     "members": [
@@ -222,8 +227,13 @@ const chemistries = [
     ],
     "name": "뽀냥즈",
     "image": "케미 리스트/S1 윤서연/뽀냥즈.png",
-    "description": "",
-    "links": []
+    "description": "뽀토즈가 생기면서 자연스럽게 고양이인 김나경과 케미명으로 뽀냥즈가되었다. <br> **241226 SIGNAL LIVE**에서 직접 언급하며 케미명이되었다.",
+    "links": [
+      {
+        "label":241226 SIGNAL LIVE",
+        "url":"https://youtu.be/Qt6lHRBcg3U?si=T5uidkpRSlfEVLbZ"
+      }
+    ]
   },
   {
     "members": [
@@ -232,7 +242,7 @@ const chemistries = [
     ],
     "name": "뽀밤즈",
     "image": "케미 리스트/S1 윤서연/뽀밤즈.png",
-    "description": "",
+    "description": "뽀토즈의 세 번째 파생 케미명으로 밤은 유빈이의 별명인 유밤이에서 따온 것이고 <br> 뽀는 '뽀'얗다가 될 수도 있고 '뽀'차코가 될 수도 있다.",
     "links": []
   },
   {
@@ -242,7 +252,7 @@ const chemistries = [
     ],
     "name": "물떡즈",
     "image": "케미 리스트/S1 윤서연/물떡즈.png",
-    "description": "물떡처럼 말랑말랑하고 동글둥글하게 생겼다 하여 팬들이 만들어준 케미명이다 .<br> photo by. @MapleSyrup_1220",
+    "description": "물떡처럼 말랑말랑하고 동글둥글하게 생겼다 하여 팬들이 만들어준 케미명이다 .",
     "links": []
   },
   {
@@ -252,8 +262,13 @@ const chemistries = [
     ],
     "name": "열일즈 / 햄햄다즈",
     "image": "케미 리스트/S1 윤서연/열일즈_햄햄다즈.png",
-    "description": "",
-    "links": []
+    "description": "햄햄다즈는 서연이의 별명인 '햄햄'과 다현의 '다'를 하겐다즈 아이스크림에 빗대 만들어진 귀여운 케미명이다.<br> 열일즈는 다현의 고유 번호인 S10을 한글식으로 부르면 '열'이 되고 <br> 서연의 고유 번호인 S1을 한글식으로 부르면 '일'이 된 <br> 그 둘을 합쳐 열일즈라 부르며 '열심히 일을 한다'의 준말이기도 하다. <br> 둘은 열심히 일을 하므로 서연이가 굉장히 맘에 들어 했고<br> **250909 시그널 라이브**에서 햄햄다즈와 열일즈 다 사용하자고 정했다. <br> 하지만 팬들은 햄햄다즈를 더 많이 사용할 것으로 보이긴 한다.0",
+    "links": [
+      {
+        "label":"250909 시그널 라이브"
+        "url":"https://youtu.be/Fx6P06K9zwk?si=n4M358B0RTkTQm29"
+      }
+    ]
   },
   {
     "members": [
@@ -272,7 +287,7 @@ const chemistries = [
     ],
     "name": "햄멍즈",
     "image": "케미 리스트/S1 윤서연/햄멍즈.png",
-    "description": "",
+    "description": "250330 서연의 fromm에서 정해짐.<br>윤서연이 닮은 동물 햄스터의 햄과 니엔의 닮은 동물 강아지(멍멍이)를 합쳐 만든 케미명이다, 하지만 해외의 웨이브들은 햄멍즈 보다 Sunnyz를 더  많이 사용한다",
     "links": []
   },
   {
@@ -282,7 +297,7 @@ const chemistries = [
     ],
     "name": "최애즈",
     "image": "케미 리스트/S1 윤서연/최애즈.png",
-    "description": "",
+    "description": "서로가 서로의 최애라서 생긴 케미명.<br> 웨이브들이 둘이 친해진 계기를 묻는 질문에도 윤서연은 서로가 최애이기 때문에 금방 친해졌다고 말하였다.",
     "links": []
   },
   {
@@ -302,7 +317,7 @@ const chemistries = [
     ],
     "name": "빵냠즈",
     "image": "케미 리스트/S1 윤서연/빵냠즈.png",
-    "description": "",
+    "description": "서연과 시온은 둘 다 대전출신이고빵을 좋아해서 지어진 케미명으로 '빵을 냠냠먹다'를 줄여만든 케미명이다.",
     "links": []
   },
   {
@@ -312,8 +327,13 @@ const chemistries = [
     ],
     "name": "자몽샤베트",
     "image": "케미 리스트/S1 윤서연/자몽샤베트.png",
-    "description": "",
-    "links": []
+    "description": "**250210 SIGNAL**에서 만든 케미명이자 유닛명.천연기념물 1호 리유저블 비닐 팩(윤서연)과 갈리다만 선녀(김채원)로 구성된 2인조 유튜버(?)라고 한다.",
+    "links": [
+      {
+        "label":"250210 SIGNAL".
+        "url":"https://youtu.be/-68vLGYzCbE?si=hpNCdOo7MuuceRQo"
+      }
+    ]
   },
   {
     "members": [
@@ -322,7 +342,7 @@ const chemistries = [
     ],
     "name": "서연즈",
     "image": "케미 리스트/S1 윤서연/서연즈.png",
-    "description": "",
+    "description": "트리플에스에서 둘은 S1과 S24이면서 둘의 본명은 윤서연, 지서연으로 같아 둘의 케미명은 서연즈가 되었다.",
     "links": []
   },
   {
@@ -332,7 +352,7 @@ const chemistries = [
     ],
     "name": "스고이즈",
     "image": "케미 리스트/S2 정혜린/스고이즈.png",
-    "description": "",
+    "description": "220726 시그널에서 혜린과 유연은 서로 일본어 수업을 받으며 유연이 '수고 많았다'를 '스고이'로 착각하며 그 뒤로 모든 대답을 스고이로 대답하며 둘이 수업받은 날을 기점으로 둘이 스고이즈가 되었다.<br>250929 COSMO 보이스 온리 라이브에서 혜린이가 스고이즈의 존재를 모르는듯해서 새로 케미명을 지을 예정인 듯 하다 현재 유력 후보는 (25즈와 심장이 유혜)다.<br> photo by. @triplesbburing",
     "links": []
   },
   {
@@ -342,7 +362,7 @@ const chemistries = [
     ],
     "name": "대구즈",
     "image": "케미 리스트/S2 정혜린/대구즈.png",
-    "description": "",
+    "description": "서로 같은 지역인 대구출생으로 대구즈라 부르게 되었다",
     "links": []
   },
   {
@@ -352,7 +372,7 @@ const chemistries = [
     ],
     "name": "왕눈즈",
     "image": "케미 리스트/S2 정혜린/왕눈즈.png",
-    "description": "",
+    "description": "남산 HAUS 시절 룸메이트였으며, 이때 둘 다 눈이 크다며 '왕눈즈'라는 케미명을 만들었다",
     "links": []
   },
   {
@@ -372,7 +392,7 @@ const chemistries = [
     ],
     "name": "이모즈",
     "image": "케미 리스트/S2 정혜린/이모즈.png",
-    "description": "",
+    "description": "동네 놀이터에서 어떤 어린아이가 둘을 이모들이라 불렀다는 썰을 230405 SIGNAL LIVE에서 풀었는데, 이때 만들어지게 됐다.",
     "links": []
   },
   {
@@ -392,7 +412,7 @@ const chemistries = [
     ],
     "name": "소리꾼즈",
     "image": "케미 리스트/S2 정혜린/소리꾼즈.png",
-    "description": "",
+    "description": "<b>소</b>현과 <b>리</b>네를 합쳐 만든 케미명으로, 231117 박소현의 fromm에서 만들었다.",
     "links": []
   },
   {
@@ -412,7 +432,7 @@ const chemistries = [
     ],
     "name": "사냥즈",
     "image": "케미 리스트/S2 정혜린/사냥즈.png",
-    "description": "",
+    "description": "260412 혜린과 린의 생일 시그널에서 정했으며<br>상어를 일본어로 뜻하는 샤메의 '샤'와 고양이를 귀엽게 부르는 냥냥이의 '냥'이 합쳐져서 만들어진 케미명이다<br> 웨이브를 사냥하겠다는 날카로운 느낌이 들어서 좋다고한다. (임시 케미명)",
     "links": []
   },
   {
@@ -422,7 +442,7 @@ const chemistries = [
     ],
     "name": "정자매즈",
     "image": "케미 리스트/S2 정혜린/정자매즈.png",
-    "description": "",
+    "description": "서아의 공개 전까지 팀 내에 단 둘뿐인 정씨 멤버들이었기 때문에 지었던 케미명. ",
     "links": []
   },
   {
@@ -522,7 +542,7 @@ const chemistries = [
     ],
     "name": "피치즈",
     "image": "케미 리스트/S4 김채연/피치즈.png",
-    "description": "",
+    "description": "둘 다 복숭아 상이라고 하여 붙여진 케미이다. 김채연을 상징하는 이모지가 복숭아이기도 합니다.<br> [25년 기준 채연이가 복숭아를 싫어하게 되며 사슴 이모지로 변경되었다.]",
     "links": []
   },
   {
@@ -532,7 +552,7 @@ const chemistries = [
     ],
     "name": "마멜즈",
     "image": "케미 리스트/S4 김채연/마멜즈.png",
-    "description": "",
+    "description": "김채연이 마이멜로디 닮고, 김나경이 쿠로미 닮았다하여 둘의 케미명이 마멜즈가 되었다.",
     "links": []
   },
   {
@@ -542,7 +562,7 @@ const chemistries = [
     ],
     "name": "MC즈",
     "image": "케미 리스트/S4 김채연/MC즈.png",
-    "description": "",
+    "description": "드림센터 스터디룸의 MC를 맡아서 생긴 케미명.",
     "links": []
   },
   {
@@ -572,7 +592,7 @@ const chemistries = [
     ],
     "name": "연엔즈",
     "image": "케미 리스트/S4 김채연/연엔즈.png",
-    "description": "",
+    "description": "김채연의 '연'과 니엔의 '엔'을 합쳐서 만든 케미명이자, 연예인이라는 중의적 의미를 담고 있는 케미명이다.",
     "links": []
   },
   {
@@ -592,7 +612,7 @@ const chemistries = [
     ],
     "name": "이마즈",
     "image": "케미 리스트/S4 김채연/이마즈.png",
-    "description": "",
+    "description": "251224 코스모 라이브에서 서로는 덮은 머리보다 이마가 보여야 이쁘다며 이마즈로 부르기 시작했다.<br> 원래는 241031 SIGNAL LIVE에서 서로 어색하고 비즈니스 사이여서 비스니즈로 사용하였었지만 1년 사이 많이 친해지고 새롭게 케미명을 만든 듯하다.",
     "links": []
   },
   {
@@ -602,7 +622,7 @@ const chemistries = [
     ],
     "name": "촉촉즈",
     "image": "케미 리스트/S4 김채연/촉촉즈.png",
-    "description": "",
+    "description": "Girls Never Die 활동 당시, 더쇼 대기실에서 하연이 채연에게 뽀뽀하는 시늉을 하였는데  채연이 피하지 않아 의도치 않게 뽀뽀를 하게 된 적이 있음.\n 240716 SIGNAL LIVE에서 하연이 당시의 일을 회상하며, 눈을 감고 뽀뽀하는 시늉을 했는데 촉촉한 느낌이 들어 놀랐다고 밝혀 촉촉즈라는 케미명을 제안.",
     "links": []
   },
   {
@@ -612,8 +632,13 @@ const chemistries = [
     ],
     "name": "말차즈",
     "image": "케미 리스트/S4 김채연/말차즈.png",
-    "description": "",
-    "links": []
+    "description": "원래 케미는 둘 다 김채가 들어간다 하여 '김채즈'였지만 둘이 말차 메이트라고 하며 말차즈로 둘이서 새롭게 변경하였다. **250621 시그널**에서 언급된다.",
+    "links": [
+      {
+        "label":"250621 시그널",
+        "url":"https://youtu.be/64im_Cc0Gtk?si=RNOPLPdySrqMU9FV"
+      }
+    ]
   },
   {
     "members": [
@@ -622,7 +647,7 @@ const chemistries = [
     ],
     "name": "연락즈",
     "image": "케미 리스트/S4 김채연/연락즈.png",
-    "description": "",
+    "description": "240814 라이브에서 채연의 '<b>연</b>'과 설린의 태국 본명인 피라다 분락사의 '<b>락</b>'이 합쳐져 만들어진 케미명이다",
     "links": []
   },
   {
@@ -632,7 +657,7 @@ const chemistries = [
     ],
     "name": "딸기즈",
     "image": "케미 리스트/S5 김유연/딸기즈.png",
-    "description": "",
+    "description": "둘 다 딸기라떼를 좋아하여 붙여진 케미명. 둘이 쌍방으로 좋아하다는 일화가 숨겨져있다.",
     "links": []
   },
   {
@@ -642,7 +667,7 @@ const chemistries = [
     ],
     "name": "투텐즈",
     "image": "케미 리스트/S5 김유연/투텐즈.png",
-    "description": "",
+    "description": "<b>2월생</b> 김유연과 <b>10월생</b> 김나경의 조합, <br> 2024년 10월 둘이 함께 IDOL RADIO의 스페셜 DJ로 활동할 때도 투텐즈라는 케미명을 사용하였다. 트리플에스 내에서 가장 유명한 케미 중 하나다.",
     "links": []
   },
   {
@@ -652,7 +677,7 @@ const chemistries = [
     ],
     "name": "두유즈",
     "image": "케미 리스트/S5 김유연/두유즈.png",
-    "description": "",
+    "description": "<b>유</b>연, <b>유</b>빈으로 두명다 이름에 '유'가 들어가 생겨난 조합명.",
     "links": []
   },
   {
@@ -682,7 +707,7 @@ const chemistries = [
     ],
     "name": "냉온즈",
     "image": "케미 리스트/S5 김유연/냉온즈.png",
-    "description": "",
+    "description": "첫인상으로 박소현이 냉하게 생기고 김유연이 온하게 생겨서 냉온즈로 케미명이 지어짐.",
     "links": []
   },
   {
@@ -722,7 +747,7 @@ const chemistries = [
     ],
     "name": "말랑즈",
     "image": "케미 리스트/S6 김수민/말랑즈.png",
-    "description": "",
+    "description": "웨이브들이 정한 케미로 둘 다 말랑말랑하게 생겨서 붙게 됐다.",
     "links": []
   },
   {
@@ -742,7 +767,7 @@ const chemistries = [
     ],
     "name": "수다즈",
     "image": "케미 리스트/S6 김수민/수다즈.png",
-    "description": "",
+    "description": "김수민의 '수'와 서다현의 '다'를 이용한 케미명. 둘이 말이 많다하여 SIGNAL LIVE에서 정해지게 됐다.<br> photo by @soomsoomsoom103",
     "links": []
   },
   {
@@ -772,7 +797,7 @@ const chemistries = [
     ],
     "name": "잭과콩나뭉즈",
     "image": "케미 리스트/S6 김수민/잭과콩나뭉즈.png",
-    "description": "",
+    "description": "240807 주빈이 fromm에서 수민이와 케미명이 있냐는 질문에 잭과콩나뭉즈라고 언급했으며 수민이가 '잭'이고 주빈이가 '콩나뭉'이라고 한다 왜 '뭉'인지는 모르겠다고  수민이가 직접 정했으나 1년 후 수민이가 까먹고 주빈이만 기억하는 짝사랑 케미명이다(?) 250913 주빈 fromm에서 확인할 수 있다.<br> Photo by. DoNot_S6",
     "links": []
   },
   {
@@ -782,7 +807,7 @@ const chemistries = [
     ],
     "name": "왹숨즈",
     "image": "케미 리스트/S6 김수민/왹숨즈.png",
-    "description": "",
+    "description": "채원이의 별명인 외계인을 줄여 부르는 '왹'과 수민이를 줄여 부르는 '숨'이 붙어져 만들어진 케미명이다. <br>처음에는 팬들끼리 부르는 케미명이였으나 지금은 많은 팬들이 사용하며 굳어지고 공식이나 다름없게 사용하는 케미명이다.",
     "links": []
   },
   {
@@ -792,7 +817,7 @@ const chemistries = [
     ],
     "name": "격리즈",
     "image": "케미 리스트/S7 김나경/격리즈.png",
-    "description": "",
+    "description": "230316 시그널에서 비교적 인원수가 적은 여의도 HAUS에 둘이 배정되는 것을 보고<br> 김유연이 둘을 격리 시켜놓는 게 아니냐는 드립을 쳤고, <br>그 이후로 당사자인 둘만 빼고 모든 멤버들과 팬들이 둘을 격리즈로 부르게되었다.",
     "links": []
   },
   {
@@ -802,8 +827,13 @@ const chemistries = [
     ],
     "name": "나다즈",
     "image": "케미 리스트/S7 김나경/나다즈.png",
-    "description": "",
-    "links": []
+    "description": "김나경의 '<b>나</b>'와 서다현의 '<b>다</b>'를 이용한 케미명. <br> 둘은 롯데 자이언츠 시구와 시타를 두 번이나 눈앞에서 실패한 경험이 있다. (우천 취소, 폭염 취소), <br>그러나 250816 드디어 시구와 시타를 해냈다. <br> **250816 롯데vs삼성**",
+    "links": [
+      {
+        "label":"250816 롯데vs삼성",
+        "url":"https://naver.me/FYqrH6ZP"
+      }
+    ]
   },
   {
     "members": [
@@ -822,7 +852,7 @@ const chemistries = [
     ],
     "name": "밤냥갱즈",
     "image": "케미 리스트/S7 김나경/밤냥갱즈.png",
-    "description": "",
+    "description": "밤양갱+고냥이의 '냥'+갱얼쥐의'갱',<br> 2024년 9월 둘이 함께 IDOL RADIO의 스페셜 DJ로 활동할 때에도 밤냥갱즈라는 케미명을 사용. ",
     "links": []
   },
   {
@@ -832,7 +862,7 @@ const chemistries = [
     ],
     "name": "깜빡즈",
     "image": "케미 리스트/S7 김나경/깜빡즈.png",
-    "description": "",
+    "description": "태어난 년도,월,일까지 모두 똑같은 멤버이다.<br> 241226 SIGNAL LIVE에서 둘 다 무언가를 잘 깜빡한다며 케미명이 만들어졌다. <br> 그러나 둘을 애써 포장하기 위해 깜냥이의 '깜'과 박쌤의 '박'이라고 말했다. ",
     "links": []
   },
   {
@@ -852,7 +882,7 @@ const chemistries = [
     ],
     "name": "칠칠즈",
     "image": "케미 리스트/S7 김나경/칠칠즈.png",
-    "description": "",
+    "description": "김나경의 S번호 7과 린의  S번호 17번이여서 칠칠즈로 케미명이 만들어지게 됐다.<br> photo by. april_s17 ",
     "links": []
   },
   {
@@ -862,7 +892,7 @@ const chemistries = [
     ],
     "name": "필연즈",
     "image": "케미 리스트/S7 김나경/필연즈.png",
-    "description": "",
+    "description": "하연이의 프롬에서 첫 언급됐으며 서로 예상치 못한 상황에 우연히 겹치는 일이 많았다고 하여 '우리는 필연이다!'<br> 해서 생긴 케미명이다. ",
     "links": []
   },
   {
@@ -872,7 +902,7 @@ const chemistries = [
     ],
     "name": "낰지즈",
     "image": "케미 리스트/S7 김나경/낰지즈.png",
-    "description": "",
+    "description": "나경의 별명인 '나키'와 지연의 '지'를 합쳐서 만든 케미명으로. 250124 나경 프롬을 통해서 언급이 됐었고 <br> 지연이한테 물어보겠다며 마무리됐었지만 260208 팬사인회에서 지연이가 언급함으로써 공식 케미가 되었다. <br> photo by. wavv57 ",
     "links": []
   },
   {
@@ -912,7 +942,7 @@ const chemistries = [
     ],
     "name": "공주즈",
     "image": "케미 리스트/S8 공유빈/공주즈.png",
-    "description": "",
+    "description": "240229 유빈이 프롬을 통해 팬이 주빈이랑 케미명이 뭐냐는 질문에 주빈이는 공주즈가 좋다고 하여 정해진 케미명이다. photo by. Bin_C1ndy_u",
     "links": []
   },
   {
@@ -922,7 +952,7 @@ const chemistries = [
     ],
     "name": "공연즈",
     "image": "케미 리스트/S8 공유빈/공연즈.png",
-    "description": "",
+    "description": "250612 SIGNAL LIVE에서 정한 케미명으로, <b>공</b>유빈과 정하<b>연</b>의 이름에서 한 글자씩 가져왔다.",
     "links": []
   },
   {
@@ -932,7 +962,7 @@ const chemistries = [
     ],
     "name": "설밤즈",
     "image": "케미 리스트/S8 공유빈/설밤즈.png",
-    "description": "",
+    "description": "설린의 '설'과 유빈이의 별명인 유밤의 '밤'이 합쳐져 만든 케미명이다. 250813 콘서트 비하인드 시그널에서 유빈이가 직접 언급했으며 추후 유빈이 프롬을 통해서 한 번 더 언급한다.",
     "links": []
   },
   {
@@ -942,7 +972,7 @@ const chemistries = [
     ],
     "name": "원플원즈",
     "image": "케미 리스트/S8 공유빈/원플원즈.png",
-    "description": "",
+    "description": "좋은 일이든 나쁜 일이든 매번 똑같이 함께 당하고 인원을 나눌 때에도 계속해서 붙어있음을 언급하며 <br> '원 플러스 원'을 줄인 '원플원즈가 되었다",
     "links": []
   },
   {
@@ -1056,7 +1086,7 @@ const chemistries = [
     ],
     "name": "소다현즈",
     "image": "케미 리스트/S10 서다현/소다현즈.png",
-    "description": "",
+    "description": "서다현의 대표 별명'소다'와 박소현의 이름'소현'을 합쳐서 만든 케미명.",
     "links": []
   },
   {
@@ -1066,8 +1096,13 @@ const chemistries = [
     ],
     "name": "다빈치즈",
     "image": "케미 리스트/S10 서다현/다빈치즈.png",
-    "description": "",
-    "links": []
+    "description": "다현과 주빈의 이름을 합쳐 만든 케미명으로, '260516 COSMO LIVE'를 진행하며 만들었다.",
+    "links": [
+      {
+        "label":"260516 COSMO LIVE",
+        "url":"https://youtu.be/34NW4hbRj_E?si=v7BF4vAwOsmdFOXx"
+      }
+    ]
   },
   {
     "members": [
@@ -1076,7 +1111,7 @@ const chemistries = [
     ],
     "name": "지능즈",
     "image": "케미 리스트/S10 서다현/지능즈.png",
-    "description": "",
+    "description": "2024 추석 SIGNAL에서 설린과 함께 팀 이름을 '야무지'로 지은 것에서 따와 케미명을 '무지즈'로 지으려다가<br> 너무 무지 해보일 것 같다며 반대되는 뜻인 '지능즈'로 241025 SIGNAL LIVE에서 만들었다.",
     "links": []
   },
   {
@@ -1086,7 +1121,7 @@ const chemistries = [
     ],
     "name": "보컬즈",
     "image": "케미 리스트/S10 서다현/보컬즈.png",
-    "description": "",
+    "description": "공식적인 <b>메인보컬</b>들의 조합, 둘다 공개 후 첫 활동에서 모두 메인보컬을 맡아서 지어지게된 케미명<br> photo by. Tiramisu0403",
     "links": []
   },
   {
@@ -1096,8 +1131,13 @@ const chemistries = [
     ],
     "name": "딸기소다즈",
     "image": "케미 리스트/S10 서다현/딸기소다즈.png",
-    "description": "",
-    "links": []
+    "description": "김채원의 상징 이모지'딸기'와 서다현의 별명인 '소다'를 합친 케미명으로 **240830 SIGNAL LIVE**에서 정해졌다.",
+    "links": [
+      {
+        "label":"240830 SIGNAL LIVE",
+        "url":"https://youtu.be/rEdeeRSGpaI?si=8hmPXEndS1afmxA_"
+      }
+    ]
   },
   {
     "members": [
@@ -1106,8 +1146,13 @@ const chemistries = [
     ],
     "name": "닿리니즈",
     "image": "케미 리스트/S10 서다현/닿리니즈.png",
-    "description": "",
-    "links": []
+    "description": "다현 어린이, 설린 어린이에서 착안한 케미명으로 서로 어린이 같은 면모가 있어 정한 케미명 이라고 한다.<br> **260119 시그널**에서 무조건 '닿' 이라고 해야한다고 다현이가 당부했다.",
+    "links": [
+      {
+        "label":"260119 시그널",
+        "url":"https://youtu.be/IbGn0PnzNe0?si=rDOBTFGGlAutRr4k"
+      }
+    ]
   },
   {
     "members": [
@@ -1288,8 +1333,13 @@ const chemistries = [
     ],
     "name": "박쉬즈",
     "image": "케미 리스트/S13 니엔/박쉬즈.png",
-    "description": "",
-    "links": []
+    "description": "**230425 SIGNAL**에서 니엔이 직접 정하게 된 케미명으로<br> 박소현의 '박'과 니엔의 본명인 쉬니엔츠에서 '쉬'를 따온 케미명이다. ",
+    "links": [
+      {
+      "label":"230425 SIGNAL"
+      "url":"https://youtu.be/kYsHpzfkJfI?si=QxYonq74ZowpWTPY"
+      }
+    ]
   },
   {
     "members": [
@@ -1308,7 +1358,7 @@ const chemistries = [
     ],
     "name": "하니즈",
     "image": "케미 리스트/S13 니엔/하니즈.png",
-    "description": "",
+    "description": "하연의 '하'와 니엔의 '니'가 합쳐져 만들어진 케미명이다. <br> 250429 촠촠 블소드 퍼퍼먼스 촬영 비하인드 시그널에서 언급된다.  ",
     "links": []
   },
   {
@@ -1318,7 +1368,7 @@ const chemistries = [
     ],
     "name": "어니온빵즈",
     "image": "케미 리스트/S13 니엔/어니온빵즈.png",
-    "description": "",
+    "description": "니엔의 '니'와 시온의 '온', 그리고 둘다 빵을 좋아한다는 특징을 합쳐 만들어진 케미명이다.",
     "links": []
   },
   {
@@ -1353,7 +1403,7 @@ const chemistries = [
     ],
     "name": "포뇨즈",
     "image": "케미 리스트/S14 박소현/포뇨즈.png",
-    "description": "",
+    "description": "린이 소현을 '소쨩'이라고 부른 것에서 착안해,<br> 포뇨를 닮은 린과 이름에 '소'가 들어가는 소스케를 소현이 담당하며 만들어진 케미명.",
     "links": []
   },
   {
@@ -1363,7 +1413,7 @@ const chemistries = [
     ],
     "name": "제비즈",
     "image": "케미 리스트/S14 박소현/제비즈.png",
-    "description": "",
+    "description": "성이 '박'인 S들의 조합, 흥부전에서 제비가'박씨'를 물어온 것에서 착안해 만들어낸 케미명. photo by. boang_9424",
     "links": []
   },
   {
@@ -1373,7 +1423,7 @@ const chemistries = [
     ],
     "name": "소설즈",
     "image": "케미 리스트/S14 박소현/소설즈.png",
-    "description": "",
+    "description": "소현의 '<b>소</b>'와 설린의 '<b>설</b>'을 합쳐 만들어진 케미명이다.<br>25.10.25 소현 Fromm에서 언급이 나왔으며 설린이가 맘에 들어 하면 이렇게 하기로 했는데<br> 설린이도 마음에 들어 한다며 소설즈로 하게 되었다.<br>  photo by. Plumver1130",
     "links": []
   },
   {
@@ -1423,7 +1473,7 @@ const chemistries = [
     ],
     "name": "외자즈",
     "image": "케미 리스트/S17 린/외자즈.png",
-    "description": "",
+    "description": "그룹 내에서 이름이 외자인 단 둘뿐인 멤버라서 생긴 케미명.",
     "links": []
   },
   {
@@ -1433,7 +1483,7 @@ const chemistries = [
     ],
     "name": "연인즈",
     "image": "케미 리스트/S17 린/연인즈.png",
-    "description": "",
+    "description": "하<b>연</b>과 <b>린(인)</b>의 이름을 합쳐 만든 케미명.",
     "links": []
   },
   {
@@ -1443,7 +1493,7 @@ const chemistries = [
     ],
     "name": "무해즈",
     "image": "케미 리스트/S17 린/무해즈.png",
-    "description": "",
+    "description": "아무런 피해를 끼치지 않을것 같고 무해한 둘이기 때문이다. <br> 둘중 한명이라도 피해를 끼치게 된다면 유해즈(?)가 될수도 있다. ",
     "links": []
   },
   {
@@ -1463,8 +1513,13 @@ const chemistries = [
     ],
     "name": "잠미즈",
     "image": "케미 리스트/S17 린/잠미즈.png",
-    "description": "",
-    "links": []
+    "description": "251114 린의 코스모 라이브에서 얼마 전 지연 언니와 케미명을 정해왔다고 말했었다.<br> 잠미즈는 ＇잠이 많은 미녀들이라는 뜻을 가지고 있다.＇ 공식은 아니고 당시에는 임시 케미명이라고 하였다. <br> 그리고 **260105 시그널**을 통해 잠미즈를 결정하는 장면이 나왔고<br> 그 이후 임시라고 했지만 둘이 만나면 잠미즈를 사용하면서 공식으로 굳어진 듯하다",
+    "links": [
+      {
+        "label": "260105 시그널",
+        "url":"https://youtu.be/Ijn-yOD1rCI?si=sAkzcHYPQe3jKoNo"
+      }
+    ]
   },
   {
     "members": [
@@ -1473,7 +1528,7 @@ const chemistries = [
     ],
     "name": "톰과제리즈",
     "image": "케미 리스트/S18 주빈/톰과제리즈.png",
-    "description": "",
+    "description": "SIGNAL LIVE에서 둘의 관계성이 톰과제리같다고 하여 케미명을 톰과제리즈로 정했다.<br> 톰은 정하연이고, 제리는 주빈이다.",
     "links": []
   },
   {
@@ -1483,7 +1538,7 @@ const chemistries = [
     ],
     "name": "밥주시온즈",
     "image": "케미 리스트/S18 주빈/밥주시온즈.png",
-    "description": "",
+    "description": "주빈의 '주'와 박시온의 '시온'을 합쳐서 만들어진 케미명, 240112 SIGNAL LIVE에서 직접 만들었다.",
     "links": []
   },
   {
@@ -1493,7 +1548,7 @@ const chemistries = [
     ],
     "name": "콩갸루즈",
     "image": "케미 리스트/S18 주빈/콩갸루즈.png",
-    "description": "",
+    "description": "260316 채원 프롬을 통해 첫 언급이 된 후, 260320 주빈의 코스모 라이브에서 또 한번 언급이 되었다. <br> 주빈 이름의 빈을 ＇콩＇과 채원이의 상징인 ＇갸루＇를 합쳐서 콩가루를 둘만의  조합명인 콩갸루즈로 만든 듯하다.",
     "links": []
   },
   {
@@ -1503,7 +1558,7 @@ const chemistries = [
     ],
     "name": "설빙즈",
     "image": "케미 리스트/S18 주빈/설빙즈.png",
-    "description": "",
+    "description": "<b>설</b>린+ 주<b>빈(빙)</b> 주빈이 직접 fromm을 통해 만든 케미명이며, 이후 설린 또한 이를 받아들여 공식 케미명이 되었다.",
     "links": []
   },
   {
@@ -1523,8 +1578,12 @@ const chemistries = [
     ],
     "name": "모찌즈",
     "image": "케미 리스트/S19 정하연/모찌즈.png",
-    "description": "",
-    "links": []
+    "description": "둘다 볼이 모찌처럼 잘늘어난다는 의미와 둘을'못찢'어놓는다는 의미도 담겨져있다. <br>**240409 SIGNAL LIVE**에서 정해진 케미명.<br>트리플에스 내에서 가장 유명한 케미 중 하나다.",
+    "links": [
+      {
+        "label":"240409 SIGNAL LIVE",
+        "url":"https://youtu.be/BDgXKDeQ7QE?si=iz0kgdQiD6YHacvQ"
+    ]
   },
   {
     "members": [
@@ -1533,7 +1592,7 @@ const chemistries = [
     ],
     "name": "눈온즈",
     "image": "케미 리스트/S20 박시온/눈온즈.png",
-    "description": "",
+    "description": "설린의 츠렌이 '눈'과 시온의 '온'을 합쳐 만든 케미명 눈이 온다는 뜻을 가지고 있고,<br> 다현이까지 모이면 눈온다즈가 된다고 한다",
     "links": []
   },
   {
@@ -1553,7 +1612,7 @@ const chemistries = [
     ],
     "name": "설원즈",
     "image": "케미 리스트/S21 김채원/설원즈.png",
-    "description": "",
+    "description": "설린의 '설'과 채원의 '원'을 합쳐 만들어진 케미명이다. <br>(오피셜 케미명은 아닌 설린 팬계정의 투표를 통해서 정해진 케미명이다.)<br> photo by. @Plumver1130",
     "links": []
   },
   {
