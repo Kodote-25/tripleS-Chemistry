@@ -202,7 +202,7 @@ document.addEventListener("keydown", event => {
 
 renderTable();
 
-// 여기부터 다크모드 코드 추가
+ // 다크모드 전환 및 설정 저장
 (() => {
   const toggle = document.getElementById("theme-toggle");
   if (!toggle) return;
@@ -211,21 +211,32 @@ renderTable();
 
   try {
     savedTheme = localStorage.getItem("theme") || "light";
-  } catch (error) {}
+  } catch (error) {
+    // 저장 기능을 사용할 수 없어도 전환 가능
+  }
 
   function updateTheme(isDark) {
     document.body.classList.toggle("dark-mode", isDark);
-    toggle.textContent = isDark ? "☀️ 라이트모드" : "🌙 다크모드";
+
+    toggle.textContent = isDark
+      ? "☀️ 라이트모드"
+      : "🌙 다크모드";
+
     toggle.setAttribute("aria-pressed", String(isDark));
 
     try {
       localStorage.setItem("theme", isDark ? "dark" : "light");
-    } catch (error) {}
+    } catch (error) {
+      // 저장하지 못해도 현재 페이지에서는 전환 가능
+    }
   }
 
+  // 저장된 테마 적용
   updateTheme(savedTheme === "dark");
 
+  // 버튼 클릭 시 테마 전환
   toggle.addEventListener("click", () => {
-    updateTheme(!document.body.classList.contains("dark-mode"));
+    const isDark = !document.body.classList.contains("dark-mode");
+    updateTheme(isDark);
   });
 })();
